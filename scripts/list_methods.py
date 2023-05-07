@@ -1,4 +1,4 @@
-# This script translate ListMethods.html (HTML4 document) to Typst format,
+# This script extract and translate ListMethods.html (HTML4 document) to Typst format,
 # on Linux you can easily write output to file using 'python3 main.py > output.txt' command
 
 # for few methods it doesn't get signature correctly and prints 'None' instead so it needs to be replaced manually
