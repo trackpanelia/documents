@@ -1,6 +1,8 @@
 # This script translate ListMethods.html (HTML4 document) to Typst format,
 # on Linux you can easily write output to file using 'python3 main.py > output.txt' command
 
+# for few methods it doesn't get signature correctly and prints 'None' instead so it needs to be replaced manually
+
 from bs4 import BeautifulSoup
 
 reader = open("./TrackmaniaServer_2011-02-21/ListMethods.html")
